@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "KAISEN~D9pjxIhD#Kv9rdBXEdFf2E7QjlBgASEuTNntbY89MKHHOM7KL8hw",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -15,7 +15,7 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*SEEN YOUR STATUS JUST NOW 👻
 // set the auto reply massage on status reply  
 PREFIX: process.env.PREFIX || ".",
 // add your prifix for bot   
-BOT_NAME: process.env.BOT_NAME || "KAISEN",
+BOT_NAME: process.env.BOT_NAME || "সাঁপুঁডেঁ বাঁবাঁ",
 // add bot namw here for menu
 STICKER_NAME: process.env.STICKER_NAME || "KAISEN",
 // type sticker pack name 
@@ -37,7 +37,7 @@ MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // maks true for always online 
 DESCRIPTION: process.env.DESCRIPTION || "*© ᴘσωєʀє∂ ву 𝖐𝚊𝚒𝚜𝖊𝖓 𝙼ԃ⎯꯭̽💀*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/j7fo2x.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/9f7j95.jpg",
 // add img for alive msg menu photo url
 LIVE_MSG: process.env.LIVE_MSG || "> HEY 👋 IM ALIVE NOW*⚡",
 // add alive msg here 
